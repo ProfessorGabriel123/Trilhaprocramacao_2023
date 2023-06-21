@@ -1,0 +1,44 @@
+body{
+ display: flex;
+width: 1000px;
+height: 1000px;
+ background: rgb(78, 78, 78);
+ display: flex;
+ justify-content: center;
+
+}
+.btlink{
+    text-decoration: none;
+    width: 50px; /*largura*/
+    height: 20px;/*altura*/
+    padding: 10px 20px; /*preenchimento*/
+    color:black; /*cor do que esta dentro da div */
+    background: green; /*cor de fundo da div*/
+    border: 2px solid rgb(170, 0, 0); /*criando a borda do botão*/
+    border-radius: 10px; /*criando a as bordas do botão*/
+    text-align: center; /*alinha o texto de forma centralizada*/
+    align-items: end;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+    
+}
+
+.bt{
+    text-decoration: none;
+    width: 20px; /*largura*/
+    height: 10px;/*altura*/
+    padding: 100% 100%; /*preenchimento*/
+    color: rgb(0, 0, 0); /*cor do que esta dentro da div */
+    background: rgb(24, 145, 24); /*cor de fundo da div*/
+    border: 2px solid black; /*criando a borda do botão*/
+    border-radius: 10px; /*criando a as bordas do botão*/
+    text-align: center; /*alinha o texto de forma centralizada*/
+    font-family: 'Times New Roman', Times, serif; /*tipo da letra*/
+    font-size: 18px;/*tamanho da letra escrita*/
+    user-select: none; /*tira a pssibilidade do mause selecionar o texto escrito*/
+    box-shadow: 10px 10px 10px rgb(7, 7, 88); /*criar boradas sombreadas*/
+}
+.btlink:hover{
+    box-shadow: 0px 10px 10px rgb(7, 7, 88); /*criar boradas sombreadas*/
+}

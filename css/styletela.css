@@ -1,0 +1,23 @@
+body{
+width: 500px;
+height: 700px;}
+.corpo{
+width: 500px;
+height: 400px;
+background: rgb(175, 61, 175);
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+.cabeça{ display: flex;
+    width: 500px;
+    height: 80px;
+    background: rgb(62, 143, 62);
+    justify-content: center;
+    align-items: start;}
+.imagem{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(0, 0, 0);}
+.textão{}
